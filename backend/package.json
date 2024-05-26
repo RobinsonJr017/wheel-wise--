@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.13",
+    "@hono/node-server": "^1.11.1",
+    "ai": "^3.1.12",
+    "dotenv": "^16.4.5",
+    "hono": "^4.3.8",
+    "keyv": "^4.5.4",
+    "openai": "^4.47.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsx": "^4.10.5"
+  }
+}

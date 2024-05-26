@@ -1,0 +1,58 @@
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.messageCard {
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.messageCardUser {
+  background-color: #f5f5f5;
+}
+
+.messageCardAI {
+  background-color: #eee;
+}
+
+.mensaje_enviado {
+  background-color: #dcf8c6;
+  border-top-left-radius: 10px; /* Radio del borde superior izquierdo */
+  border-top-right-radius: 18px; /* Radio del borde superior derecho */
+  border-bottom-left-radius: 10px; /* Radio del borde inferior izquierdo */
+  padding: 10px 15px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Estilo para los mensajes recibidos */
+.mensaje_recibido {
+  background-color: #fff;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 15px;
+  max-width: 70%;
+  margin-right: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
